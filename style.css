@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-image: url('202409091180908344023241086.jpg'); /* Background image */
+    background-size: cover; /* Ensures the background covers the whole area */
+    display: flex;
+    justify-content: flex-end; /* Aligns the container to the right */
+    height: 100vh; /* Full height */
+}
+
+.image-container {
+    display: flex; /* Aligns images in a row */
+}
+
+.image-container img {
+    width: 150px; /* Set the width of the images */
+ height: 100px; /* set the  height of the images*/
+    margin-left: 0; /* No margin between images */
+}
